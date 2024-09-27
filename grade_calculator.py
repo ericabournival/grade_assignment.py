@@ -10,5 +10,3 @@ final = float(input("Enter grade for Final Exam: "))
 prep = float(input("Enter grade for Midterms and Final Preparation: "))
 mark = (((lab)/6)*20) + (((quiz)/6)*15) + ((((ass1)+(ass2)+(ass3)+(ass4))/4)*0.16) + ((((mid1)+(mid2))/2)*0.25) + ((final)*0.18) + ((prep)*0.06)
 print("Your grade is: ", round(mark,2))
-
-
